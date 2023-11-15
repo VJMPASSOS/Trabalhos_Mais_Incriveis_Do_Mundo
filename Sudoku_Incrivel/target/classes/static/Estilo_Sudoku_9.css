@@ -1,0 +1,83 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+hr{
+  width: 500px;
+}
+
+#erros{
+  color: rgb(232, 109, 109)
+}
+
+#tabuleiro{
+  width: 450px;
+  height: 450px;
+
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#digitos{
+  width: 450px;
+  height: 50px;
+
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bloco{
+  width: 48px;
+  height: 48px;
+  border: 1px solid lightblue;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numero{
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgb(83, 162, 253);
+  margin: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numero-selecionado{
+  background-color: gray;
+}
+
+.bloco-inicial{
+  background-color: whitesmoke;
+}
+
+.linha-horizontal{
+  border-bottom: 2px solid rgb(0, 115, 255);
+}
+
+.linha-vertical{
+  border-right: 2px solid rgb(0, 115, 255);
+}
+
+button{
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  background-color: lightgray;
+  border: 2px solid lightblue;
+}
+button:hover{
+  background-color: lightblue;
+}
+h1{
+  color: rgb(232, 109, 109);
+}
